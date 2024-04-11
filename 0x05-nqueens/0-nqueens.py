@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """N Queens placement on NxN chessboard"""
 
+
 import sys
+
 
 def generate_solutions(row, column):
     solution = [[]]
@@ -57,4 +59,3 @@ def n_queens():
 
 if __name__ == '__main__':
     n_queens()
-    
